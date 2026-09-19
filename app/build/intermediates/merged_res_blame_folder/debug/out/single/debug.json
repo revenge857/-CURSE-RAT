@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.curse.rat.app-merged_res-21:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.curse.rat.app-main-23:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.curse.rat.app-merged_res-21:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.curse.rat.app-main-23:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.curse.rat.app-merged_res-21:/layout_activity_main.xml.flat",
+        "source": "com.curse.rat.app-main-23:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.curse.rat.app-merged_res-21:/xml_accessibility_service_config.xml.flat",
+        "source": "com.curse.rat.app-main-23:/xml/accessibility_service_config.xml"
+    }
+]

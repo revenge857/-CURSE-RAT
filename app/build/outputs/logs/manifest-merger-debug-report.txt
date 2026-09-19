@@ -1,0 +1,571 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /root/.gradle/caches/transforms-3/343556b5d2ada98f18e986e9bd7fd7c8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /root/.gradle/caches/transforms-3/e333c67ace263b5616d2550b613f7931/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /root/.gradle/caches/transforms-3/421a49481564728ac2e449e4fcc2c967/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /root/.gradle/caches/transforms-3/5e4ae72f39592e2b17edcaa78cb52732/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /root/.gradle/caches/transforms-3/e89f067bfa86e4a18d078e9c4406d0ea/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /root/.gradle/caches/transforms-3/13d3618d78a96b785e1302e25e35b2cc/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /root/.gradle/caches/transforms-3/6c376253eb6e129894cb7c65233af65d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /root/.gradle/caches/transforms-3/663879c1f16d1f2371d9c3017510e1d9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /root/.gradle/caches/transforms-3/65b33b9091dda4ea3e48406dacf435a8/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /root/.gradle/caches/transforms-3/1030aaac2e0c0a5806a1ced8416c21d4/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /root/.gradle/caches/transforms-3/6b4e4ea18cccb4aec86f8f2f7454d083/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /root/.gradle/caches/transforms-3/45d382e983b5c29a62a9e17666fe76e5/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /root/.gradle/caches/transforms-3/b268d2f769a8867aa56bdc1b2aed6d1c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /root/.gradle/caches/transforms-3/e3d5d9db1d8847be9a6ab85c036cf2a5/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /root/.gradle/caches/transforms-3/39585d7ff596c3f6c695fa13a4bfa70a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /root/.gradle/caches/transforms-3/b3a69e40ee3319e794be56b2f1361ad4/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /root/.gradle/caches/transforms-3/412e2cc10bfe9e7cfd97458e89cd78d1/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /root/.gradle/caches/transforms-3/cb8d1266c5d00603bdadd8ca862b0019/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/.gradle/caches/transforms-3/f28438c8cbca08992bb12d19384568e9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /root/.gradle/caches/transforms-3/b591a1b9a208a82cb60e1feabc83a834/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /root/.gradle/caches/transforms-3/e8a3880167b3acb5b0e9b10772d7278f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /root/.gradle/caches/transforms-3/f2b4b7bd9e585b355e40553c3b3c443b/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/transforms-3/f2dea4af95c493a893bccf4ef1f4f6f0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /root/.gradle/caches/transforms-3/949cc598422b760f4360294c942d0659/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+	package
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:1-138:12
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.READ_SMS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:15:22-67
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:18:5-72
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:18:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:21:22-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:23:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:24:5-94
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:24:22-91
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:25:5-95
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:25:22-92
+uses-permission#android.permission.VIBRATE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:26:22-63
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:29:5-73
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:29:22-70
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:30:22-68
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:31:22-70
+uses-permission#android.permission.CALL_PHONE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:32:5-69
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:32:22-66
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:33:5-77
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:33:22-74
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:34:5-77
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:34:22-74
+uses-permission#android.permission.ADD_VOICEMAIL
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:35:5-72
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:35:22-69
+uses-permission#android.permission.USE_SIP
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:36:22-63
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:37:22-78
+uses-permission#android.permission.RECEIVE_WAP_PUSH
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:38:5-75
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:38:22-72
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:39:5-70
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:39:22-67
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:40:5-85
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:40:22-82
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:41:5-82
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:41:22-79
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:42:5-80
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:42:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:43:5-76
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:43:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:44:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:45:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:46:5-68
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:46:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:47:5-74
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:47:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:48:5-76
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:48:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:49:5-73
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:49:22-70
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:50:5-78
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:50:22-75
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:51:5-76
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:51:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:52:5-76
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:52:22-73
+uses-permission#android.permission.NFC
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:53:5-62
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:53:22-59
+uses-permission#android.permission.BODY_SENSORS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:54:5-71
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:54:22-68
+uses-permission#android.permission.BODY_SENSORS_BACKGROUND
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:55:5-82
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:55:22-79
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:56:5-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:56:22-76
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:57:5-72
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:57:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:58:5-74
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:58:22-71
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:59:5-72
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:59:22-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:60:5-83
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:60:22-80
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:61:5-78
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:61:22-75
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:62:5-73
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:62:22-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:63:5-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:63:22-76
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:64:5-75
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:64:22-72
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:65:5-76
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:65:22-73
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:66:5-69
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:66:22-66
+uses-permission#android.permission.GET_TASKS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:67:5-68
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:67:22-65
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:68:5-84
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:68:22-81
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:69:5-78
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:69:22-75
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:70:5-77
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:70:22-74
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:71:5-77
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:71:22-74
+uses-permission#android.permission.READ_LOGS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:72:5-68
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:72:22-65
+uses-permission#android.permission.REBOOT
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:73:5-65
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:73:22-62
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:74:5-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:74:22-76
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:75:5-74
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:75:22-71
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:76:5-80
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:76:22-77
+uses-feature#android.hardware.camera
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:78:5-85
+	android:required
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:78:58-82
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:78:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:79:5-95
+	android:required
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:79:68-92
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:79:19-67
+application
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:81:5-136:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/.gradle/caches/transforms-3/f28438c8cbca08992bb12d19384568e9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/.gradle/caches/transforms-3/f28438c8cbca08992bb12d19384568e9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:88:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:86:9-35
+	android:label
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:84:9-41
+	android:roundIcon
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:85:9-54
+	android:icon
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:83:9-43
+	android:allowBackup
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:82:9-35
+	android:theme
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:87:9-59
+	android:usesCleartextTraffic
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:89:9-44
+activity#com.curse.rat.MainActivity
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:91:9-98:20
+	android:exported
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:92:13-36
+	android:configChanges
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:93:13-74
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:91:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:94:13-97:29
+action#android.intent.action.MAIN
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:95:17-69
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:95:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:96:27-74
+activity#com.curse.rat.ScreenCastActivity
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:100:9-103:40
+	android:excludeFromRecents
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:102:13-46
+	android:exported
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:103:13-37
+	android:theme
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:101:13-72
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:100:19-53
+service#com.curse.rat.MainService
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:105:9-109:63
+	android:enabled
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:107:13-35
+	android:exported
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:108:13-36
+	android:foregroundServiceType
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:109:13-60
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:106:13-40
+receiver#com.curse.rat.MainService$Restarter
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:111:9-117:20
+	android:enabled
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:112:13-35
+	android:exported
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:113:13-36
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:111:19-56
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:114:13-116:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:115:25-76
+service#com.curse.rat.KeylogManager
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:119:9-127:19
+	android:exported
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:121:13-36
+	android:permission
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:120:13-79
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:119:18-47
+intent-filter#action:name:android.view.accessibility.AccessibilityService
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:122:13-124:29
+action#android.view.accessibility.AccessibilityService
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:123:17-90
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:123:25-87
+meta-data#android.view.accessibility.AccessibilityService
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:125:13-126:72
+	android:resource
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:126:17-69
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:125:24-86
+service#com.curse.rat.NotificationManager
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:129:9-135:19
+	android:exported
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:131:13-36
+	android:permission
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:130:13-87
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:129:18-53
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:132:13-134:29
+action#android.service.notification.NotificationListenerService
+ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:133:17-99
+	android:name
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml:133:25-96
+uses-sdk
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /root/.gradle/caches/transforms-3/343556b5d2ada98f18e986e9bd7fd7c8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /root/.gradle/caches/transforms-3/343556b5d2ada98f18e986e9bd7fd7c8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /root/.gradle/caches/transforms-3/e333c67ace263b5616d2550b613f7931/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /root/.gradle/caches/transforms-3/e333c67ace263b5616d2550b613f7931/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /root/.gradle/caches/transforms-3/421a49481564728ac2e449e4fcc2c967/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /root/.gradle/caches/transforms-3/421a49481564728ac2e449e4fcc2c967/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /root/.gradle/caches/transforms-3/5e4ae72f39592e2b17edcaa78cb52732/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /root/.gradle/caches/transforms-3/5e4ae72f39592e2b17edcaa78cb52732/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /root/.gradle/caches/transforms-3/e89f067bfa86e4a18d078e9c4406d0ea/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /root/.gradle/caches/transforms-3/e89f067bfa86e4a18d078e9c4406d0ea/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /root/.gradle/caches/transforms-3/13d3618d78a96b785e1302e25e35b2cc/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /root/.gradle/caches/transforms-3/13d3618d78a96b785e1302e25e35b2cc/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /root/.gradle/caches/transforms-3/6c376253eb6e129894cb7c65233af65d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /root/.gradle/caches/transforms-3/6c376253eb6e129894cb7c65233af65d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /root/.gradle/caches/transforms-3/663879c1f16d1f2371d9c3017510e1d9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /root/.gradle/caches/transforms-3/663879c1f16d1f2371d9c3017510e1d9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /root/.gradle/caches/transforms-3/65b33b9091dda4ea3e48406dacf435a8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /root/.gradle/caches/transforms-3/65b33b9091dda4ea3e48406dacf435a8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /root/.gradle/caches/transforms-3/1030aaac2e0c0a5806a1ced8416c21d4/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /root/.gradle/caches/transforms-3/1030aaac2e0c0a5806a1ced8416c21d4/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /root/.gradle/caches/transforms-3/6b4e4ea18cccb4aec86f8f2f7454d083/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /root/.gradle/caches/transforms-3/6b4e4ea18cccb4aec86f8f2f7454d083/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /root/.gradle/caches/transforms-3/45d382e983b5c29a62a9e17666fe76e5/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /root/.gradle/caches/transforms-3/45d382e983b5c29a62a9e17666fe76e5/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /root/.gradle/caches/transforms-3/b268d2f769a8867aa56bdc1b2aed6d1c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /root/.gradle/caches/transforms-3/b268d2f769a8867aa56bdc1b2aed6d1c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /root/.gradle/caches/transforms-3/e3d5d9db1d8847be9a6ab85c036cf2a5/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /root/.gradle/caches/transforms-3/e3d5d9db1d8847be9a6ab85c036cf2a5/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /root/.gradle/caches/transforms-3/39585d7ff596c3f6c695fa13a4bfa70a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /root/.gradle/caches/transforms-3/39585d7ff596c3f6c695fa13a4bfa70a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /root/.gradle/caches/transforms-3/b3a69e40ee3319e794be56b2f1361ad4/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /root/.gradle/caches/transforms-3/b3a69e40ee3319e794be56b2f1361ad4/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /root/.gradle/caches/transforms-3/412e2cc10bfe9e7cfd97458e89cd78d1/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /root/.gradle/caches/transforms-3/412e2cc10bfe9e7cfd97458e89cd78d1/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /root/.gradle/caches/transforms-3/cb8d1266c5d00603bdadd8ca862b0019/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /root/.gradle/caches/transforms-3/cb8d1266c5d00603bdadd8ca862b0019/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/.gradle/caches/transforms-3/f28438c8cbca08992bb12d19384568e9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/.gradle/caches/transforms-3/f28438c8cbca08992bb12d19384568e9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /root/.gradle/caches/transforms-3/b591a1b9a208a82cb60e1feabc83a834/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /root/.gradle/caches/transforms-3/b591a1b9a208a82cb60e1feabc83a834/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /root/.gradle/caches/transforms-3/e8a3880167b3acb5b0e9b10772d7278f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /root/.gradle/caches/transforms-3/e8a3880167b3acb5b0e9b10772d7278f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /root/.gradle/caches/transforms-3/f2b4b7bd9e585b355e40553c3b3c443b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /root/.gradle/caches/transforms-3/f2b4b7bd9e585b355e40553c3b3c443b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/transforms-3/f2dea4af95c493a893bccf4ef1f4f6f0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/transforms-3/f2dea4af95c493a893bccf4ef1f4f6f0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /root/.gradle/caches/transforms-3/949cc598422b760f4360294c942d0659/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /root/.gradle/caches/transforms-3/949cc598422b760f4360294c942d0659/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		ADDED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+		INJECTED from /root/CURSE-RAT/client/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transforms-3/54469d7be1c1665330752fb11d8f3627/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/d73acfe8d1c6d895b1d46698bf1933cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.curse.rat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.curse.rat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ea8998703fee7fd78e5f5a6ddcbea144/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/44add69d5502d3b3ebaf9ab034f2a136/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
